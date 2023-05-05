@@ -1,0 +1,154 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #1c2331;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da seção Home */
+#home {
+    background-image: url(bg_home.jpg);
+    background-size: cover;
+    color: #292828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+#home p {
+    font-size: 1.5em;
+}
+
+#home button {
+    background-color: #fff;
+    color: #1c2331;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos da seção Sobre Nós */
+#sobre-nos {
+    background-color: #fff;
+    padding: 50px;
+}
+
+#sobre-nos h2 {
+    margin-top: 0;
+}
+
+#sobre-nos button {
+    background-color: #1c2331;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#sobre-nos button:hover {
+    background-color: #000;
+}
+
+/* Estilos da seção Ministérios */
+#ministerios {
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+#ministerios h2 {
+    margin-top: 0;
+}
+
+#ministerios button {
+    background-color: #1c2331;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#ministerios button:hover {
+    background-color: #000;
+}
+
+/* Estilos da seção Agenda */
+#agenda {
+    padding: 50px;
+}
+
+#agenda h2 {
+    margin-top: 0;
+}
+
+#agenda ul {
+    list-style: none;
+    padding: 0;
+}
+
+#agenda button {
+    background-color: #1c2331;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top:
+}
